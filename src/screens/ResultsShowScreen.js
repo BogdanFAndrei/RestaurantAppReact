@@ -3,6 +3,8 @@ import { View, Text, StyleSheet, FlatList, Image } from 'react-native';
 
 
 const ResultsShowScreen = ({ navigation }) => {
+    const id = navigation.getParam('id');
+    console.log(id);
     return (
         <View>
             <Text>Results Show</Text>
