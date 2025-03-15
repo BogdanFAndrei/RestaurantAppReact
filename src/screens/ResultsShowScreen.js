@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { View, Text, StyleSheet, FlatList, Image } from 'react-native';
 
+
 const ResultsShowScreen = ({ navigation }) => {
     return (
         <View>
